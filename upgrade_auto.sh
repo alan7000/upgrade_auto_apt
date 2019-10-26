@@ -1,5 +1,6 @@
 #!/bin/sh
 
+#Variable du mot de passe precedament envoyer via le script upgrade_ssh.sd
 pass="$1";
 
 echo "Mise a jour des dépôt"
