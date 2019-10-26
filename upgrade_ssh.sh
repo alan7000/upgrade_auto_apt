@@ -1,8 +1,7 @@
 #!/bin/bash
 # Liste des ip a utiliser.
 ip=(8 21 7 31)
-# Iterateur pour la boucle for
-i=0
+
 #Obtention du mot de pass
 read -s -p "Entrer votre mot de passe : " pass
 echo ""
