@@ -6,7 +6,7 @@ You can contribute to this small script via pull-requests or by forking the proj
 
 ## Upgrade local
 
-The "upgrade" script allows you to upgrade a Debian-based GNU/Linux distribution locally.
+The "upgrade.sh" script allows you to upgrade a Debian-based GNU/Linux distribution locally.
 
 ## Upgrade SSH
 
