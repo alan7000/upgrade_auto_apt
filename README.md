@@ -24,7 +24,7 @@ If you want to add an alias at the shell level to call the upgrade.sh script ple
 
 Give the execution right to the "upgrade.sh" script via the following command: 
 
-    chmod +x $HOME/upgrade.sh
+    chmod +x $HOME/.upgrade.sh
 
 # Upgrade SSH
 
@@ -51,5 +51,5 @@ If you want to add an alias at the shell level to call the upgrade_ssh.sh script
 
 Give the execution right to the "upgrade_ssh.sh" "upgrade_auto.sh" scripts via the following command: 
 
-    chmod +x $HOME/upgrade_auto.sh
-    chmod +x $HOME/upgrade_ssh.sh
+    chmod +x $HOME/.upgrade_auto.sh
+    chmod +x $HOME/.upgrade_ssh.sh
