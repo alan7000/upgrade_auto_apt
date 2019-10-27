@@ -18,7 +18,7 @@ Then execute the two commands below:
     cp upgrade.sh $HOME
     mv $HOME/upgrade.sh $HOME/.upgrade.sh
     
-If you want to add an alias at the shell level to call the upgrade.sh script please type the following command:
+If you want to add an alias at the shell level to call the upgrade.sh script please edit the ".bashrc" file and then add the following line :
 
     alias upgrade="cd $HOME && ./.upgrade.sh"
 
@@ -41,6 +41,6 @@ Edit the "upgrade_ssh.sh" script:
 
 Line 3: Write all IPs of each machine on your network.
 
-If you want to add an alias at the shell level to call the upgrade_ssh.sh script please type the following command:
+If you want to add an alias at the shell level to call the upgrade_ssh.sh script please edit the ".bashrc" file and then add the following line :
 
     alias upgrade_ssh="cd $HOME && ./.upgrade_ssh.sh"
